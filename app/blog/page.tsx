@@ -29,7 +29,7 @@ export default function Blog() {
                     {/* Blog Post Thumbnail */}
                     <div className="w-20 h-14 relative rounded-md overflow-hidden">
                         <Image
-                            src="/blog-thumbnails/fintech-banner.jpg"
+                            src="/blog-thumbnails/unmaskbitcoin.png"
                             alt="FinTech Blog Thumbnail"
                             layout="fill"
                             objectFit="cover"
