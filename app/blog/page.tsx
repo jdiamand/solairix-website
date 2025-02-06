@@ -21,7 +21,7 @@ export default function Blog() {
                 {/* FinTech Section with Thumbnail */}
                 <h2 className="text-xl font-bold text-yellow-400 mt-6">FinTech</h2>
                 <a
-                    href="https://www.linkedin.com/...your-blog-url"
+                    href="https://lnkd.in/eS7YEjTg"
                     className="flex items-center space-x-4 mt-2 border p-2 rounded-lg hover:bg-gray-800 transition duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
