@@ -10,7 +10,7 @@ export default function Blog() {
                 <ul className="mt-4 space-y-4">
                     <li>
                         <a
-                            href="YOUR_LINKEDIN_FINTECH_ARTICLE_URL"
+                            href="https://www.linkedin.com/pulse/unmasking-anonymity-bitcoin-transactions-joseph-diamand-x4l1e/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-400 hover:underline"
