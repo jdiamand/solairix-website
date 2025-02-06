@@ -3,7 +3,7 @@ import { faBlog } from "@fortawesome/free-solid-svg-icons";
 export default function Blog() {
     return (
         <div className="container mx-auto p-8">
-            <FontAwesomeIcon icon={faBlog} className="text-yellow-400" />
+            <FontAwesomeIcon icon={faBlog} className="text-yellow-400 w-20 h-20 mb-4" />
             <h1 className="text-4xl font-bold mb-6">Solairix Blog</h1>
             <p className="text-lg mb-4">Explore my latest insights on AI/ML and FinTech.</p>
 
@@ -27,7 +27,7 @@ export default function Blog() {
                             rel="noopener noreferrer"
                             className="text-blue-400 hover:underline"
                         >
-                            🔗 The Evolution of FinTech: Disruptions & Innovations
+                            🔗 Unmasking Anonymity in Bitcoin Transactions
                         </a>
                     </li>
                 </ul>
@@ -35,3 +35,5 @@ export default function Blog() {
         </div>
     );
 }
+
+
