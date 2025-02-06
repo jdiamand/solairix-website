@@ -2,21 +2,34 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <div className="landing-container">
-            {/* Solairix Logo - Using Next.js Image Component */}
-            <Image src="/solairix-logo.png" alt="Solairix Logo" width={256} height={256} className="mb-8" />
+        <div className="flex flex-col items-center justify-center min-h-screen px-6 text-white text-center">
+            {/* Solairix Logo with Glow Effect */}
+            <div className="relative">
+                <Image
+                    src="/solairix-logo.png"
+                    alt="Solairix Logo"
+                    width={256}
+                    height={256}
+                    className="mb-8 transition-transform transform hover:scale-105 drop-shadow-glow"
+                />
+            </div>
 
-            <h1 className="text-4xl font-bold">Welcome to Solairix</h1>
-            <p className="text-lg mt-4">Exploring the Future of AI, ML, and FinTech.</p>
+            <h1 className="text-5xl font-extrabold tracking-wide animate-fade-in">
+                Welcome to <span className="text-yellow-400">Solairix</span>
+            </h1>
+            <p className="text-lg mt-4 max-w-xl opacity-90">
+                Exploring the Future of <span className="text-yellow-400">AI</span>, <span className="text-yellow-400">ML</span>, and <span className="text-yellow-400">FinTech</span>.
+            </p>
 
-            <div className="mt-6 flex gap-4">
-                <a href="/about" className="px-6 py-2 border border-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black">
+            {/* Navigation Links */}
+            <div className="mt-6 flex gap-6">
+                <a href="/about" className="px-6 py-2 border border-yellow-400 rounded-lg transition-all hover:bg-yellow-400 hover:text-black hover:scale-105">
                     About
                 </a>
-                <a href="/projects" className="px-6 py-2 border border-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black">
+                <a href="/projects" className="px-6 py-2 border border-yellow-400 rounded-lg transition-all hover:bg-yellow-400 hover:text-black hover:scale-105">
                     Projects
                 </a>
-                <a href="/blog" className="px-6 py-2 border border-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black">
+                <a href="/blog" className="px-6 py-2 border border-yellow-400 rounded-lg transition-all hover:bg-yellow-400 hover:text-black hover:scale-105">
                     Blog
                 </a>
             </div>
