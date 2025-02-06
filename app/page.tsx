@@ -15,10 +15,10 @@ export default function Home() {
             </div>
 
             <h1 className="text-5xl font-extrabold tracking-wide animate-fade-in">
-                Welcome to <span className="text-yellow-400">Solairix</span>
+                Welcome to <span className="text-yellow-400">Solairix<span className="text-sm align-super">™</span></span>
             </h1>
             <p className="text-lg mt-4 max-w-xl opacity-90">
-                Exploring the Future of <span className="text-yellow-400">AI</span>, <span className="text-yellow-400">ML</span>, and <span className="text-yellow-400">FinTech</span>.
+                Enabling the Advancement of <span className="text-yellow-400">Intelligent, Emerging Technologies</span>.
             </p>
 
             {/* Navigation Links */}
@@ -36,3 +36,6 @@ export default function Home() {
         </div>
     );
 }
+
+
+
