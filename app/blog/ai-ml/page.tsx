@@ -35,7 +35,7 @@ export default function BlogCategoryAI() {
             </div>
 
             {/* 🔹 AI/ML Articles Subtitle */}
-            <p className="text-2xl font-bold mt-2 text-gray-300">AI/ML Articles </p>
+            <p className="text-2xl font-bold mt-4 text-yellow-400">AI/ML Articles </p>
 
             {/* 🔹 2024 Year Subtitle (Left-aligned) */}
             <div className="w-full max-w-2xl text-left">

@@ -20,7 +20,7 @@ export default function Blog() {
                 <FontAwesomeIcon icon={faBlog} className="text-yellow-400 w-7 h-7" />
             </div>
 
-            <p className="text-2xl font-bold mt-2 text-gray-300">
+            <p className="text-2xl font-bold mt-4 text-yellow-400">
                 Explore tech insights<sup>*</sup>
             </p>
             <p className="text-sm text-gray-400 mt-1">* Some articles may require LinkedIn access.</p>
