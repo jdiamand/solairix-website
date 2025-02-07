@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function BlogCategoryAI() {
     const aiMlArticles = [
         {
@@ -35,14 +36,14 @@ export default function BlogCategoryAI() {
             </div>
 
             {/* 🔹 AI/ML Articles Subtitle */}
-            <p className="text-2xl font-bold mt-4 text-yellow-400">AI/ML Articles </p>
+            <p className="text-2xl font-bold mt-4 text-yellow-400">AI/ML Articles</p>
 
             {/* 🔹 2024 Year Subtitle (Left-aligned) */}
             <div className="w-full max-w-2xl text-left">
                 <h3 className="text-lg font-bold text-gray-400">2024</h3>
             </div>
 
-            {/* 🔹 Blog Post List */}
+            {/* 🔹 Blog Post List - Fixed Thumbnail Size */}
             <div className="w-full max-w-2xl flex flex-col gap-6 mt-2">
                 {aiMlArticles.map((article, index) => (
                     <a
@@ -52,14 +53,14 @@ export default function BlogCategoryAI() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        {/* Thumbnail */}
-                        <div className="w-16 h-16">
+                        {/* ✅ Fixed Thumbnail Size & Aspect Ratio */}
+                        <div className="w-24 h-14 relative rounded-md overflow-hidden">
                             <Image
                                 src={article.image}
                                 alt="Thumbnail"
-                                width={64}
-                                height={64}
-                                className="rounded-lg"
+                                width={96}
+                                height={56}
+                                className="rounded-md object-cover"
                             />
                         </div>
 
