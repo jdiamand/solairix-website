@@ -14,20 +14,22 @@ export default function Blog() {
                 <Link href="/blog" className="font-bold text-yellow-400">Blog</Link>
             </nav>
 
-            {/* 🔹 Blog Heading with Icon */}
+            {/* 🔹 Blog Heading with Correct Color */}
             <div className="flex items-center space-x-3">
-                <h1 className="text-3xl font-bold">Solairix Blog</h1>
+                <h1 className="text-3xl font-bold text-white">Solairix Blog</h1>
                 <FontAwesomeIcon icon={faBlog} className="text-yellow-400 w-7 h-7" />
             </div>
 
-            <p className="text-lg mt-2">Explore tech insights <sup>*</sup>.</p>
+            <p className="text-2xl font-bold mt-2 text-gray-300">
+                Explore tech insights<sup>*</sup>
+            </p>
             <p className="text-sm text-gray-400 mt-1">* Some articles may require LinkedIn access.</p>
 
             <div className="mt-6 w-full max-w-2xl text-left">
                 {/* 🔹 AI/ML Section */}
                 <h2 className="text-xl font-bold text-yellow-400">AI/ML</h2>
                 <a
-                    href="https://lnkd.in/ai-ml-example"
+                    href="https://lnkd.in/eQ5EHVRx"
                     className="flex items-center space-x-4 mt-2 border p-2 rounded-lg hover:bg-gray-800 transition duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -35,7 +37,7 @@ export default function Blog() {
                     {/* ✅ AI/ML Blog Thumbnail FIXED */}
                     <div className="w-24 h-14 relative rounded-md overflow-hidden">
                         <Image
-                            src="/blog-thumbnails/unmaskbitcoin.png"
+                            src="/blog-thumbnails/matrix-part3.png"
                             alt="AI/ML Blog Thumbnail"
                             width={96}
                             height={56}
@@ -45,14 +47,14 @@ export default function Blog() {
 
                     {/* Blog Post Title */}
                     <span className="text-blue-400 text-lg font-semibold hover:underline">
-                        AI Models and Their Ethical Challenges
+                        The Matrix Retrieved : Part 3 - From RAGs To Riches
                     </span>
                 </a>
 
-                {/* Load More AI/ML Articles */}
+                {/* More AI/ML Articles */}
                 <div className="mt-2 text-right">
                     <Link href="/blog/ai-ml" className="text-yellow-400 text-base font-semibold hover:underline">
-                        → Load More AI/ML Articles
+                        → More AI/ML Articles
                     </Link>
                 </div>
 
@@ -85,10 +87,10 @@ export default function Blog() {
                 </a>
 
 
-                {/* Load More FinTech Articles */}
+                {/*  More FinTech Articles */}
                 <div className="mt-3 text-right">
                     <Link href="/blog/fintech" className="text-yellow-400 text-base font-semibold hover:underline">
-                        → Load More FinTech Articles
+                        → More FinTech Articles
                     </Link>
                 </div>
             </div>

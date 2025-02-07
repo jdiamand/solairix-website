@@ -1,6 +1,6 @@
-import type { Config } from "tailwindcss";
-
-export default {
+/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,12 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        yellow: {
-          400: "#c4a000", // Improved yellow
-          600: "#b08900", // Stronger shade for text
-        },
+        background: "var(--background)",
+        foreground: "var(--foreground)",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};

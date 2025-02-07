@@ -1,3 +1,4 @@
+import "./globals.css";  // ✅ Required
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -24,14 +25,17 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
+        {/* Main Content Wrapper - Ensures full height layout */}
+        <main className="flex-grow">{children}</main>
 
-
-        {/* Main Content */}
-        <main className="p-8">{children}</main>
+        {/* Global Footer - Keeps it at the bottom */}
+        <footer className="text-center text-sm text-gray-400 p-4">
+            &copy; {new Date().getFullYear()} Solairix Labs, LLC. All rights reserved.
+        </footer>
         </body>
         </html>
+
+
     );
 }
