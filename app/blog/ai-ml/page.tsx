@@ -7,14 +7,14 @@ import { faBlog } from "@fortawesome/free-solid-svg-icons";
 export default function BlogCategoryAI() {
     const aiMlArticles = [
         {
-            title: "The Matrix Retrieved: Part 3 - From RAGs To Riches",
-            link: "https://lnkd.in/ai-ml-example",
-            image: "/blog-thumbnails/matrix-part3.png",
+            title: "How to Train Your Llama: Part 2 - Calibration",
+            link: "https://lnkd.in/e5kiZcRJ",
+            image: "/blog-thumbnails/train-llama-p2.png",
         },
         {
-            title: "Exploring Neural Networks in Financial Forecasting",
-            link: "https://lnkd.in/ai-ml-example2",
-            image: "/blog-thumbnails/forecasting.png",
+            title: "Do Transformers Dream of Electric Sheep?: Part 1 - Discovery",
+            link: "https://lnkd.in/eQZZxauY",
+            image: "/blog-thumbnails/transformer-dream-p1.png",
         },
     ];
 
