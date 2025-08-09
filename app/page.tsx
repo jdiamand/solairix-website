@@ -19,13 +19,10 @@ export default function Home() {
 
 
                 <h1 className="text-5xl font-extrabold tracking-wide text-white">
-                    Welcome to <span className="text-yellow-400">Solairix™</span>
+                    Advancing the Nexus of{" "}
+                    <span className="text-yellow-400">AI and Financial Technology</span>.
                 </h1>
 
-                <p className="text-lg mt-3 max-w-xl opacity-90">
-                    Enabling the Advancement of{" "}
-                    <span className="text-yellow-400">Intelligent, Emerging Technologies</span>.
-                </p>
             </div>
 
             {/* "Sticky‐bottom" container for Nav and Footer */}
