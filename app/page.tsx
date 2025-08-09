@@ -18,7 +18,7 @@ export default function Home() {
                 </div>
 
 
-                <h1 className="text-5xl font-extrabold tracking-wide text-white">
+                <h1 className="text-2xl font-extrabold tracking-wide text-white">
                     Advancing the Nexus of{" "}
                     <span className="text-yellow-400">AI and Financial Technology</span>.
                 </h1>
