@@ -29,7 +29,7 @@ export default function Blog() {
                 {/* 🔹 AI/ML Section */}
                 <h2 className="text-xl font-bold text-yellow-400">AI/ML</h2>
                 <a
-                    href="https://lnkd.in/eQ5EHVRx"
+                    href="https://lnkd.in/ep8JxUrm"
                     className="flex items-center space-x-4 mt-2 border p-2 rounded-lg hover:bg-gray-800 transition duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function Blog() {
                     {/* ✅ AI/ML Blog Thumbnail FIXED */}
                     <div className="w-24 h-14 relative rounded-md overflow-hidden">
                         <Image
-                            src="/blog-thumbnails/matrix-part3.png"
+                            src="/blog-thumbnails/nobel-ai-era.png"
                             alt="AI/ML Blog Thumbnail"
                             width={96}
                             height={56}
@@ -47,7 +47,7 @@ export default function Blog() {
 
                     {/* Blog Post Title */}
                     <span className="text-blue-400 text-lg font-semibold hover:underline">
-                        The Matrix Retrieved : Part 3 - From RAGs To Riches
+                        Associative Memory, Connectionism, & the Nobel AI Era
                     </span>
                 </a>
 
