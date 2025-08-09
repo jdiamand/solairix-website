@@ -23,7 +23,7 @@ export default function Blog() {
             <p className="text-2xl font-bold mt-4 text-yellow-400">
                 Explore tech insights<sup>*</sup>
             </p>
-            <p className="text-sm text-gray-400 mt-1">Articles may require LinkedIn access.</p>
+            <p className="text-sm text-gray-400 mt-1">* Articles may require LinkedIn access.</p>
 
             <div className="mt-6 w-full max-w-2xl text-left">
                 {/* 🔹 AI/ML Section */}
