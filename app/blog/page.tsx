@@ -23,7 +23,7 @@ export default function Blog() {
             <p className="text-2xl font-bold mt-4 text-yellow-400">
                 Explore tech insights<sup>*</sup>
             </p>
-            <p className="text-sm text-gray-400 mt-1">* Articles require LinkedIn access.</p>
+            <p className="text-sm text-gray-400 mt-1">* Articles may require LinkedIn account.</p>
 
             <div className="mt-6 w-full max-w-2xl text-left">
                 {/* 🔹 AI/ML Section */}
@@ -51,29 +51,29 @@ export default function Blog() {
                     </span>
                 </a>
 
-                {/* More AI/ML Articles */}
+                {/* More AI/ML Posts */}
                 <div className="mt-2 text-right">
                     <Link href="/blog/ai-ml" className="text-yellow-400 text-base font-semibold hover:underline">
-                        → More AI/ML Articles
+                        → More AI/ML Posts
                     </Link>
                 </div>
 
 
 
 
-                {/* 🔹 FinTech Section */}
-                <h2 className="text-xl font-bold text-yellow-400 mt-6">FinTech</h2>
+                {/* 🔹 Fintech Section */}
+                <h2 className="text-xl font-bold text-yellow-400 mt-6">Fintech</h2>
                 <a
-                    href="https://lnkd.in/eS7YEjTg"
+                    href="https://lnkd.in/eaCyvz6s"
                     className="flex items-center space-x-4 mt-2 border p-2 rounded-lg hover:bg-gray-800 transition duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    {/* ✅ FinTech Blog Thumbnail FIXED */}
+                    {/* ✅ Fintech Blog Thumbnail FIXED */}
                     <div className="w-24 h-14 relative rounded-md overflow-hidden">
                         <Image
-                            src="/blog-thumbnails/unmaskbitcoin.png"
-                            alt="FinTech Blog Thumbnail"
+                            src="/blog-thumbnails/fintech-phase-part-2.png"
+                            alt="Fintech Blog Thumbnail"
                             width={96}
                             height={56}
                             className="rounded-md"
@@ -82,15 +82,15 @@ export default function Blog() {
 
                     {/* Blog Post Title */}
                     <span className="text-blue-400 text-lg font-semibold hover:underline">
-                        Unmasking Anonymity in Bitcoin Transactions
+                        Fintech Phases Part 2: Rise of the Fintech Startups
                     </span>
                 </a>
 
 
-                {/*  More FinTech Articles */}
+                {/*  More Fintech Posta */}
                 <div className="mt-3 text-right">
                     <Link href="/blog/fintech" className="text-yellow-400 text-base font-semibold hover:underline">
-                        → More FinTech Articles
+                        → More Fintech Posts
                     </Link>
                 </div>
             </div>
