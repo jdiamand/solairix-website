@@ -19,8 +19,8 @@ export default function Home() {
 
 
                 <h1 className="text-2xl font-extrabold tracking-wide text-white">
-  Advancing the Fusion of{" "}
-  <span className="text-yellow-400">AI and Financial Technology</span>
+  Engineering at the Nexus of{" "}
+  <span className="text-yellow-400">AI and Fintech</span>
   <span className="text-sky-400">.</span>
 </h1>
 
