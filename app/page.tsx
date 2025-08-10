@@ -25,7 +25,8 @@ export default function Home() {
 </h1>
 
             </div>
-            {/* "Sticky‐bottom" container for Nav and Footer */}
+
+            {/* "Sticky‐bottom" container for Nav and Footer------- */}
             <div className="mt-auto mb-6">
                 {/* Centered Navigation Menu */}
                 <div className="flex gap-6 justify-center mb-4">
