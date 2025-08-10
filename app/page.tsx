@@ -52,7 +52,7 @@ export default function Home() {
 
                 {/* Footer */}
                 <footer className="text-sm text-gray-400">
-                    &copy; 2025 Solairix Labs, LLC. All rights reserved.
+
                 </footer>
             </div>
         </div>
